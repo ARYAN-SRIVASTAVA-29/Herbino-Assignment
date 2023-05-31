@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+#top{
+    background-color: whitesmoke;
+    height: 100vh;
+    min-width: 100vw;
+    
+}
+
+#top .top-up{
+    display: flex;
+}
+
+#top .round{
+    height: 380px;
+    width: 400px;
+    background: rgba(253, 206, 135, 0.140);
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+    margin-left: -3%;
+    margin-top: -2%;
+    position: absolute;
+    z-index: 1;
+}
+
+#top .herb{
+    position: relative;
+    top: 40px;
+    left: 70px;
+   z-index: 2;
+   font-size: 18px;
+   letter-spacing: 0.5px;
+}
+
+#top .top-right{
+    margin-left: 38%;
+    margin-top: 40px;
+}
+
+#top .navbar a{ 
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+#top .link{
+    margin-right: 30px;
+}
+
+#top .btn{
+    margin-left: 50px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+#top .btn:hover{
+    background-color:rgb(35, 142, 35);
+    border: none;
+    color: rgb(239, 238, 238);
+}
+
+#top .hero-ct{
+    font-size: 45px;
+    letter-spacing: 0.5px;
+    margin-top: 140px;
+    margin-left: 115px;
+   font-weight: bolder;
+}
+
+#top .hero-ct-one{
+    margin-top: 30px;
+    margin-left: 115px;
+}
+
+#top .input{
+    margin-left: 115px;
+    margin-top: 20px;
+    display: flex;
+}
+
+#top .input-one {
+    height: 30px;
+    width: 300px;
+    padding: 10px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border: transparent;
+}
+
+#top .input-one:focus{
+    outline: none;
+}
+
+#top .input .btn-one{
+    height: 50px;
+    width: 100px;
+    
+    border-radius: 50px;
+    margin-left: -8%;
+    background-color: rgb(35, 142, 35);
+    border: transparent;
+    font-size: 14px;
+   
+    color: rgb(239, 238, 238);
+    cursor: pointer;
+}
+
+#top .star-one{
+    position: relative;
+    top: -290px;
+    left: 850px;
+    font-size: 38px;
+    color: gold;
+}
+
+#top .img-one{
+    position: relative;
+    top: -360px;
+    left: 1080px;
+    height: 500px;
+    width: 400px;
+    border-top-left-radius: 160px;
+    border-top-right-radius: 160px;
+    border-bottom-left-radius: 160px;
+    border-bottom-right-radius: 50px;
+}
+
+#top .images{
+    position: relative;
+    top: -500px;
+    margin-left: 115px;
+    
+}
+
+#top .images .commu{
+    position: relative;
+left: 275px;
+top: -60px;
+}
+
+#top .images img{
+    border-radius: 50px;
+    height: 70px;
+    width: 70px;
+}
+
+#top .images .farm-two{
+    margin-left: -1.25%;
+    border-left: 4px solid rgb(239, 238, 238);
+    border-top: 4px solid rgb(239, 238, 238);
+    border-bottom: 4px solid rgb(239, 238, 238);
+}
+
+#top .images .star-two{
+    position: relative;
+    top: -23px;
+    font-size: 38px;
+    left: 25px;
+    color: rgb(35, 142, 35);
+  
+}
+
+#top .reco h2{
+        position: relative;
+        top: -460px;
+        margin: auto;
+        left: 40%;
+}
+
+#top .reco .reco-img{
+    position: relative;
+    left: 20%;
+    top: -440px;
+}
+
+#top .reco .reco-img img{
+    width: 200px;
+    height: 60px;
+    margin-left: 60px;
+}
+
+#footer{
+    min-height: 20vh;
+    min-width: 100vw;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+#signupPage {
+    
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 500px;
+    background-color: whitesmoke;
+    z-index: 9999;
+    opacity: 1; /* Initially set opacity to 1 */
+  }
+  
+  #landingPage {
+    opacity: 1;
+    transition: opacity 0.3s;
+  }
+  
+  #landingPage.dim {
+    opacity: 0.5;
+  }
+  
+
+
+  #signupPage .heading{
+    display: flex;
+    justify-content: center;
+    font-size: 42px;
+    letter-spacing: 2px;
+  }
+
+  #signupPage .heading-one{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+
+  }
+
+  #signupPage .goog{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    cursor: pointer;
+  }
+
+  #signupPage .google{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    width: 250px;
+    height: 25px;
+    padding: 10px;
+  }
+
+  #signupPage .google .fa-google{
+    margin-right: 20px;
+    margin-left: 10px;
+    color: red;
+  }
+
+
+  #signupPage .fb{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+
+
+  #signupPage .fb .facebook .fa-facebook{
+    margin-right: 20px;
+    margin-left: 10px;
+    color: blue;
+  }
+
+
+  #signupPage .tweet{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+
+  #signupPage .tweet .google .fa-twitter{
+    margin-right: 20px;
+    margin-left: 10px;
+    color: lightskyblue;
+  }
+
+
+  .login{
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+    font-size: 50px;
+  }
